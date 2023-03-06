@@ -1,0 +1,1451 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Nastaliq+Urdu&display=swap');
+#news_buttons
+{
+  font-size: 16px;
+  background: #D02C35;
+  color: white;
+  border-radius: 10px;
+  height: 31px;
+  padding-top: 0px;
+}
+#UrduHeading_rightBorder
+{
+  width: 108rem;
+  border-right: 10px solid #D02C35 ;
+}
+/************************************Header style**************************************/
+.header
+{
+  display: grid;
+}
+.navbar
+{
+  height: 4rem;
+  background: #A5232B;
+}
+.nav-link {
+    font-size: 20px;
+    margin-top:0.53rem;
+    font-family: sans-serif;
+    color: white;
+    -webkit-box-orient: vertical !important;
+    -webkit-box-direction: normal!important;
+    -ms-flex-direction: row!important;
+    flex-direction: row!important;
+}
+.navbar a
+{
+  color: white;
+  text-align: center;
+   font-size: 17px;
+ font-family: 'Noto Nastaliq Urdu', serif;
+     margin-top: -0.5rem;
+}
+
+.navbar-light .navbar-brand {
+    color: white !important;
+    margin-left: 1px !important;
+    margin-top: -1rem !important;
+}
+.navbar-brand
+{
+width: 6rem;
+}
+.dropdown-menu.show {
+  display: block;
+  background: linear-gradient(#B4272F,#62141A);
+  text-align: center;
+   font-size: 17px;
+ font-family: 'Roboto';
+}
+#moreUrdu
+{
+  font-size: 15px;
+  font-family: 'Noto Nastaliq Urdu', serif;
+}
+#dropdown
+{
+  display: none;
+  font-size: 16px;
+  font-weight: 600;
+  background: linear-gradient(#B4272F,#62141A);
+  width: 285px  !important;
+  position: absolute;
+  top: 4rem !important;
+}
+.dropdown-item:hover
+{
+  color: white;
+  width: 100%;
+  background: transparent !important;
+}
+.dropdown-item:active
+{
+  color: white;
+  background: transparent !important;
+}
+.dropdown-item.active
+{
+  background:black !important;
+  height: 3rem;
+}
+.UrduuAkhbaar-Container
+{
+  margin-left: -2rem;
+
+}
+.UrduAkhbaar
+{
+  margin-top: -0.1rem !important;
+  width: 7rem;
+}
+.logoAkhbaar
+{
+    width: 5rem !important;
+    margin-top: 11px;
+}
+
+#UrduAkbaar-link
+{
+      margin-left: -6px;
+    font-size: 18px;
+    margin-top: 15px
+}
+#UrduAkbaar-link:hover
+{
+  color: white;
+}
+#UrduAkbaar-link:focus
+{
+  color: white;
+}
+#user-icon-dropdown
+{
+background: linear-gradient(#B4272F,#62141A);
+position: absolute;
+will-change: transform;
+top: 1px !important;
+transform: translate3d(-149px, 51px, 0px);
+border: none;
+border-radius: 9px;
+}
+#user-icon-dropdown .dropdown-item:hover
+{
+color: white;
+  width: 100%;
+  background: #272B33;
+}
+
+
+/***********************Style for main_page_slider*************************************/
+#carouselExampleIndicators
+{
+ width: 60rem;
+ margin-top: -21px;
+  margin-left: -1.4rem;
+}
+.carousel-inner
+{
+  height: 598px;
+  margin-left: 30px;
+  border-radius:0px 0px 46px 46px;
+    position: relative !important;
+    width: 83% !important;
+    overflow: hidden !important;
+}
+.carousel .carousel-indicators 
+{
+
+    display: flex;
+    justify-content: right;
+    margin-right: 10rem;
+
+}
+.carousel .carousel-indicators li {
+
+   width: 15px;
+   height: 14px;
+   border-radius: 100%;
+   
+ }
+.carousel-caption {
+ 
+ margin-right: 100%;
+ margin-left: -10%;
+ padding-bottom: 90px !important;
+
+}
+.caption_1
+{
+   font-family: 'Roboto';
+  font-size: 17px !important;
+  font-weight: bold;
+  text-align:left;
+  line-height: 1.5em;
+  width:650px;
+  overflow: hidden;
+    text-overflow: ellipsis;
+    display: 
+    -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+
+  
+}
+.caption_2
+{
+   font-family: 'Roboto';
+  font-size: 14px !important;
+  line-height: 1.7em;
+  text-align:left;
+  width: 650px;
+  margin-top: -8px;
+  color: white;
+  overflow: hidden;
+    text-overflow: ellipsis;
+    display: 
+    -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+  
+}
+#carousel_1
+{
+  top: 0px;
+  bottom: auto;
+}
+#btn_breakingNews
+{
+  border-radius:0px 20px 0px 0px;
+  position: relative;
+  left:-46px;
+  background:#d82737;
+  color: white;
+  font-weight: bold;
+   font-family: 'Roboto';
+  font-size: 12px !important;
+}
+#btn_News_carousal
+{
+
+  font-size: 16px;
+  background: #D02C35;
+  color: white;
+  border-radius: 10px;
+  margin-top: -10px;
+  height: 31px;
+  padding-top: 2px;
+}
+.grand_parent{
+  background: black;
+}
+.parents{
+ background-color: black;
+ height: auto; 
+ margin-left:-2%;
+ display: flex;
+ justify-content: space-around;
+ flex-wrap: wrap;
+ transition: all 0.2 linear;
+}
+.child{
+  height:598px;
+  flex:1 1 200px;
+  color: white;
+  margin: 20px;
+  border-radius:0px 0px 46px 46px;
+}
+
+.child:first-child{
+   height: auto;
+   flex:1 1 700px;
+}
+.child:last-child{
+  background: linear-gradient(#B4272F,#62141A);
+  height: 37.6rem;
+  margin: -0.1rem 56px 0px -97px;
+}
+@media (max-width: 768px){
+  .grand_parent{height:auto; }
+}
+.trending_news_heading
+{
+  font-weight: bold;
+  width: 37%;
+  margin:20px auto;
+  display: flex;
+  justify-content: center;
+  border-bottom:1px solid white;
+   font-family: 'Roboto';
+  font-size: 17px;
+}
+#trending_news_list h4
+{
+margin: -41px 0px 46px;
+ font-size: 17px;
+ font-family: 'Noto Nastaliq Urdu', serif;
+font-weight: bold;
+}
+#trending_news_list h3
+{
+margin: -64px 0px 27px 58px;
+font-family: 'Roboto';
+font-size: 17px;
+font-weight: bold;
+}
+#trending_news_list span
+{
+   font-family: 'Roboto';
+  font-size: 40px;
+  
+}
+
+#trending_news_list p
+{
+   font-family: 'Roboto';
+  font-size: 14px;
+  margin-top:-25px;
+  margin-left: 58px;
+  overflow: hidden;
+    text-overflow: ellipsis;
+    display: 
+    -webkit-inline-box;;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+}
+#hr_trendingNews
+{
+  width: 94%;
+  margin: 0px auto 23px auto;
+}
+/* width */
+    div.scrollmenu {
+overflow-y:scroll ;
+}
+.scrollmenu::-webkit-scrollbar  {
+  width: 10px;
+
+}
+
+/* Track */
+.scrollmenu::-webkit-scrollbar-track {
+  background: transparent; 
+  border-radius: 5px;
+
+}
+ 
+/* Handle */
+.scrollmenu::-webkit-scrollbar-thumb {
+  background: red; 
+  border-radius: 10px;
+ 
+}
+
+/* Handle on hover */
+.scrollmenu::-webkit-scrollbar-thumb:hover {
+  background: #b30000; 
+}
+
+ /***************************************************** Start Middle Bar Content CSS ************************************************/
+
+ .middle-bar
+ {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background: rgba(232, 236, 241) ;
+
+ }
+ .middle-bar a{
+   text-decoration: none;
+ }
+.middle-bar-items
+{
+  width: 237px;
+  height: 62px;
+  margin: 10px;
+  border-right:3px solid lightgrey;
+  
+}
+#middle-bar-items-img
+{
+  float: left;
+  width: 72px;
+  height: 60px
+}
+#middle-bar-items-mainHeading
+{
+    font-size: 16px;
+    font-weight: bold;
+    color: #c60b0b;
+    font-family: 'Vidaloka', serif;
+
+}
+/*#middle-bar-items-description
+{
+    font-size: 13px;
+    font-weight: 400;
+    font-family: 'Nunito Sans', sans-serif;
+    color: #000;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: 
+    -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    line-height: 18px;
+    width: 80%;
+    margin-left: 23%;
+
+}*/
+
+* {
+  margin: 0;
+  padding: 0;
+}
+a
+{
+  text-decoration: none !important;
+}
+.bgclr-cls{
+    /* background-color: rgb(75, 41, 0); */
+    background: #000000;
+    padding: 0;
+}
+.news-title
+{
+  font-size: 17px;
+  font-family: 'Roboto';
+  overflow: hidden;
+    text-overflow: ellipsis;
+    display: 
+    -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+}
+.news-title-urdu
+{
+  font-size: 17px;
+  line-height: 2.2rem;
+ font-family: 'Noto Nastaliq Urdu', serif;
+  overflow: hidden;
+    text-overflow: ellipsis;
+    display: 
+    -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+}
+.news-description
+{
+  font-size: 14px;
+font-family: 'Roboto';
+  overflow: hidden;
+    text-overflow: ellipsis;
+    display: 
+    -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+}
+.news-description-urdu
+{
+  font-size: 14px;
+  line-height: 2.2rem;
+font-family: 'Noto Nastaliq Urdu', serif;
+  overflow: hidden;
+    text-overflow: ellipsis;
+    display: 
+    -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+}
+section.top-stories {
+  padding: 30px; 
+}
+section.national {
+  padding: 30px; 
+}
+section.international {
+  padding: 30px; 
+}
+section.politics {
+  padding: 30px; 
+}
+section.sports {
+  padding: 30px; 
+}
+.small-block-img {
+  margin-bottom: 2rem;
+} 
+.nations-image {
+  margin-bottom: 2rem;
+}
+.more-link {
+  color: #fff;
+  text-decoration: none;
+}
+.text-white {
+  color: #fff;
+}
+.news-title-urdu {
+  margin: 5px 0px;
+}
+span.small-block-date {
+    margin-bottom: 5px;
+    display: block;
+}
+.small-full-width {
+    display: inline-block;
+    width: 100%;
+}
+.line {
+    background: red;
+    width: 66%;
+    height: 7px;
+    border-radius: 0.25rem;
+    border: 0;
+    opacity: .25;
+}
+.cards .cols {
+  padding: 0px 25px;
+}
+.colss {
+  padding: 0px 0px 0px 50px;
+}
+.colss-rev {
+  padding: 0px 50px 0px 50px;
+}
+.section-title h4 {
+  border-left: 6px solid #D02C35;
+  height: 37px;
+  padding-top: 7px;
+  padding-left: 10px;
+}
+.section-title_Urdu h4
+{
+    border-right: 6px solid #D02C35;
+    height: 39px;
+    padding-top: 7px;
+    padding-right: 10px;
+    direction: rtl;
+}
+.section-title {
+  margin-bottom: 15px;
+}
+.btn-danger {
+  background: #D02C35 !important;
+}
+/***************************************************** For Mobile Screen CSS *********************************************************/
+@media only screen and (max-width: 600px) {
+  .middle-bar{
+    width: 530px;
+  }
+  .middle-bar-items {
+   width: 500px;
+  }
+  #middle-bar-items-description
+ {
+    margin-left:14%;
+     overflow: hidden;
+    text-overflow: ellipsis;
+    display: 
+    -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+}
+}
+ /***************************************************** Ends Middle Bar Content CSS  ************************************************/
+
+ /***************************************************** Starts Footer CSS  ************************************************/
+.footer-link
+{
+
+}
+/*****************************************************  Ends Footer CSS  ************************************************/
+
+/*****************************************************  Starts Catwegory Detailed Page CSS  ************************************************/
+.topStories_readMore
+{
+float: right;
+color: white;
+font-size: 14px;
+text-decoration: revert;
+}
+.topStories_readMore:hover{
+  color: white;
+}
+
+.topStories_heading
+{
+  display: table-cell;
+  word-break: break-all;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: 
+   -webkit-box;
+   -webkit-line-clamp: 2;
+   -webkit-box-orient: vertical;
+}
+.hr_topStories
+{
+  background: red;
+  height: 2px;width: 45%;
+  display: inline-block;
+  margin-top: -1.1rem;
+}
+.topStories_paragraph
+{
+  color:white;
+  display: table-cell;
+  word-break: break-all;
+  overflow: hidden;
+  margin-top: -1rem;
+  text-overflow: ellipsis;
+  display: 
+   -webkit-box;
+   -webkit-line-clamp: 3;
+   -webkit-box-orient: vertical;
+}
+
+
+
+
+/*****************************************************  Ends Catwegory Detailed Page CSS  ************************************************/
+
+/*****************************************************  Starts Detailed News Page CSS  ************************************************/
+#topRead_container
+{
+  height: 3em;
+  background: #212121;
+}
+#topRead_subContainer
+{
+  color:white;
+  margin-left: 9em;
+  margin-top: 0.7em;
+}
+#topRead_marquee
+{
+  padding: 0.4em;
+  color: white;
+}
+#main_newsContainer
+{
+  color:white;
+}
+#detailNews_topStories_bnt
+{
+  border-radius: 8px;
+  width: 8em;
+  background: #D02C35;
+  color: white;
+  font-family: revert;
+  height: 2em;
+  font-size: large;
+}
+#heading_newsContainer
+{
+   font-family: 'Roboto';
+  font-size: 20px !important;
+  font-weight: bold;
+  width: 57%;
+  word-break: break-all;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: 
+   -webkit-box;
+   -webkit-line-clamp: 1;
+   -webkit-box-orient: vertical;
+} 
+
+#newsContainerbutton
+{
+    border: none;
+    position: absolute;
+    width: 9em;
+    height: 8%;
+    margin-top: 3%;
+    background: #D02C35;
+    color: white;
+    border-radius: 0px 28px 0px 0px;
+}
+#main_image
+{
+  height: 35rem !important;
+  border-radius: 5px;
+}
+#recentNews_container
+{
+  margin-left: 5.5%;
+  background-color: #212121;
+  border-radius: 11px;
+  width: 36%;
+  height: 41rem;
+  margin-top: -1em;
+}
+#Recent_headingParagraph_container
+{
+   font-family: 'Roboto';
+  font-size: 15px !important;
+ margin-left: 0.5em;
+    width: 71%;
+}
+#count_recentNews
+{
+  font-size: 49px;
+  font-weight: 500;
+  font-family: fantasy;
+  
+}
+#count_recentNewsUrdu
+{
+  font-size: 49px;
+  font-weight: 500;
+  font-family: fantasy;
+  
+}
+#sub_Heading
+{
+   font-family: 'Roboto';
+  font-size: 17px !important;
+  font-weight: bold;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  width: 94.5%;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+#sub_HeadingUrdu
+{
+  text-align: -webkit-right !important;
+  direction: rtl;
+  font-family: 'Roboto';
+  font-size: 17px !important;
+  font-weight: bold;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  width: 94.5%;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+#paragraph_recentNews
+{
+   font-family: 'Roboto';
+  font-size: 13px !important;
+  width: 94.5%;
+  height: 2.5rem;
+  word-break: break-all;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: 
+   -webkit-box;
+   -webkit-line-clamp: 2;
+   -webkit-box-orient: vertical;
+}
+#divider_recentNews
+{
+    width: 24rem !important;
+    margin-left: -29%;
+
+}
+#relatedNewsBlogs_Heading
+{
+ color: white;
+    display: table-cell;
+    font-family: 'Roboto';
+    font-size: 17px !important;
+    
+}
+div.scrollmenu_recentNews {
+overflow-y:scroll;
+}
+.scrollmenu_recentNews::-webkit-scrollbar  {
+  width: 5px;
+
+}
+
+/* Track */
+.scrollmenu_recentNews::-webkit-scrollbar-track {
+  background: transparent; 
+  border-radius: 5px;
+
+}
+ 
+/* Handle */
+.scrollmenu_recentNews::-webkit-scrollbar-thumb {
+  background:transparent; 
+  border-radius: 10px;
+ 
+}
+
+/* Handle on hover */
+.scrollmenu_recentNews::-webkit-scrollbar-thumb:hover {
+  background:lightgrey ; 
+}
+#fullDescription
+{
+background-color:#731E23;
+height: 2px;
+font-size: 30px;
+width:2.7em;
+position: absolute;
+}
+#devider_fullDescription
+{
+border:1px solid white;
+width: 57%;
+}
+/*#releatedNews_container
+{
+  width: 85%;
+}*/
+#heading_relatedNews
+{
+  border-left: 8px solid red;
+  padding: -0.5rem;
+  padding-left: 0.4rem;
+  margin-left:2.7%;
+}
+#related_News_Anchortag
+{
+  color: white;
+}
+#related_News_Anchortag img
+{
+  border-radius: 5px;
+}
+
+@media screen and (min-width:1200px)
+{
+ #releatedNews_container {
+      margin-left: 0.2rem;
+  }
+  #heading_relatedNews {
+      margin-left: -5.3rem !important;
+  }
+}
+@media screen and (max-width:1199px) and (min-width:992px)
+{
+  #count_recentNews {
+    margin-left: -1rem !important;
+  }
+   #Recent_headingParagraph_container {
+    margin-left: 0.9em !important;
+  }
+  #heading_relatedNews {
+    margin-left: -8.3% !important;
+}
+#topRead_subContainer {
+    margin-left: 0rem !important;
+}
+
+}
+@media screen and (max-width:991px) and (min-width:768px)
+{
+  #recentNews_container {
+       margin-left: 1rem !important;
+    margin-top: 1rem;
+    height: 37rem !important;
+  }
+  #divider_recentNews {
+    width: 44rem;
+  }
+  #count_recentNews {
+        margin-left: -1rem;
+
+  }
+  .trending_news_heading
+  {
+    width: 54% !important;
+  }
+  #heading_relatedNews {
+    margin-left: -8.3% !important;
+}
+#topRead_subContainer {
+     margin-left: 0rem !important; 
+}
+.RecentUrdu_Heading
+{
+  margin-right: 1.8rem !important;
+}
+
+}
+@media screen and (max-width:777px) and (min-width:576px)
+{
+  #topRead_subContainer {
+     margin-left: 0rem !important; 
+}
+  #heading_relatedNews {
+    margin-left: -8.3% !important;
+}
+  #recentNews_container {
+    margin-left: 2.5% !important;
+      margin-top: 1rem !important;
+      width: 41rem !important
+}
+.trending_news_heading
+{
+  width: 8rem;
+}
+#Recent_headingParagraph_container {
+  margin-left: 7rem !important;
+    position: absolute !important;
+}
+#divider_recentNews {
+    width: 42rem !important;
+    margin-left: -29% !important;
+    margin-top: -0.5rem !important;
+}
+
+    
+}
+@media screen and (min-width:575px)
+{
+  
+}
+
+/*****************************************************  Ends Detailed News Page CSS  ************************************************/
+/*****************************************************  Starts User Login With OTP Page CSS  ************************************************/
+.main-content
+{
+ width: 100%;
+ margin-top:9rem
+}
+.phone_div
+{
+  border:1px solid #CD395A ;
+  width: 45%;
+  height:35px;
+  border-radius: 4px;
+}
+.fa-phone
+{
+  padding-top: 0.55rem;
+}
+.phone-InputField
+{
+  background-color: transparent;
+  border: none;
+  width: 100%;
+}
+
+.phone-InputField:focus,.phone-InputField:valid{
+    outline: none;
+    color:white;
+}
+.otp-Button
+{
+  width: 43%;
+  background-color: #F44369;
+  border-radius: 5px; 
+  color: white;
+  margin-left: 1.8rem;
+}
+.fa-check
+{
+  color:#F44369;
+}
+.subscribing-paragraph
+{
+  font-size:12px;
+}
+.OTP_div
+{
+  border:1px solid #CD395A ;
+  width:47px;
+  padding-left:14px ;
+  padding-top: 2px;
+  height:35px;
+  border-radius: 4px;
+}
+.timeOut-Otp
+{
+  font-size: 12px;
+  width:52%;
+  text-align: center;
+}
+.verify-Button
+{
+  width: 38.5%;
+  background-color: #F44369;
+  border-radius: 5px; 
+  color: white;
+  margin-left: 2.8rem;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+
+}
+
+
+/*****************************************************  Ends User Login With OTP Page CSS  ************************************************/
+
+/***************************************************** Responsive Layout for Mobile *******************************************************/
+@media screen and (max-width: 2400px) and (min-width: 1600px)
+{
+  #carouselExampleIndicators{
+    width: 95%;
+  }
+  .child{
+    width: 45%;
+  }
+  .caption_1
+  {
+    width:37rem;
+  }
+  .caption_2
+  {
+    width:37rem;
+  }
+  .trending_news_heading
+  {
+    width: 200px;
+  }
+ .logoAkhbaar
+ {
+    margin-left: 1px;
+    margin-right: -34px;
+    width: 7rem;
+ }
+
+}
+
+/************************************************** media queryies for Header Page ********************************************************/
+@media screen and (max-width:1291px) and (min-width:601px) {
+    
+  .header
+  {
+   width: 100% !important;
+  }
+}
+
+@media screen and (max-width:1220px) and (min-width:992px)
+{
+    .header
+  {
+    width: 100% !important;
+  }
+    .logoAkhbaar img
+    {
+      margin-top: -1.5rem;
+      display: block;
+      margin-left: 0rem;
+    }
+    nav
+    {
+      width: 90%;
+    margin-left: -2rem;
+    } 
+    .navbar a {
+    font-size: 15px;
+    margin-top: 4px;
+    }
+    .navbar-light .navbar-brand {
+    color: white !important;
+    margin-left: 28px !important;
+    margin-top: -2px !important;
+}
+    #navbar-list
+    {
+    margin-top: 6px;
+    margin-left: -50px;
+    width: 20px !important;
+    }
+    #UrduAkbaar-link
+    {
+    text-align: right;
+    font-size: 21px;
+    margin-top: 8px !important;
+    margin-left: -4.5rem !important;
+    width: 101px;
+    }
+    .navbar-brand .fa-solid {
+    margin-left: -2rem !important;
+    }
+    /* #dropdown
+    {
+    margin-top: 25rem;
+    margin-left: -15rem;
+    } */
+    #dropdown .dropdown-item {
+    color: white;
+    display: inline-flex;
+}
+
+}
+@media screen and (max-width:991px) and (min-width:969px)
+{
+    .header
+    {
+        width: 100% !important;
+    }
+    .logoAkhbaar img
+{
+    width: 85px;
+    margin-left: 1rem;
+} 
+#navHome
+{
+      width: 84%;
+}
+.collapse.show {
+    /* display: flex; */
+    margin-top: 1rem;
+    background: #A5232B;
+    flex-wrap: wrap;
+}
+#dropdown
+{
+    margin-top: 33rem;
+    margin-left: -129px;
+}
+.navbar-brand .fa-solid {
+    margin-left: -3rem !important;
+    margin-top: -6px !important;
+   }
+ #UrduAkbaar-link
+ {
+    margin-left: -6rem;
+ }
+
+}
+
+@media screen and (max-width:968px) and (min-width:768px)
+{
+   .header
+    {
+        width: 100% !important;
+    }
+    .logoAkhbaar img
+    {
+    width: 85px;
+    margin-left: 1rem;
+    }
+    .navbar-brand .fa-solid {
+    margin-left: 1rem !important;
+    margin-top: -6px !important;
+    }
+    #UrduAkbaar-link{
+       margin-left: -0.5rem;
+       font-size: 13px;
+    }
+    .collapse.show {
+    display: flex;
+    margin-top: 1rem;
+    background: #A5232B;
+    flex-wrap: wrap;
+    }
+    #dropdown
+    {
+    margin-top: 36rem;
+    margin-left: -129.5px;
+    }
+    #navbar-list
+    {
+      display: none;
+    }
+
+}
+@media screen and (max-width:767px) and (min-width:601px)
+{
+    .header
+    {
+        width: 100% !important;
+    }
+    .logoAkhbaar img
+    {
+    width: 86px;
+    }
+     #UrduAkbaar-link {
+    width: 97px;
+    font-size: 18px;
+    margin-top: 10px;
+}
+    .collapse.show {
+    display: flex;
+    margin-top: 1rem;
+    background: #A5232B;
+    flex-wrap: wrap;
+    }
+    #dropdown
+    {
+    margin-top: 33rem;
+    margin-left: -130.5px;
+    width: 30px !important;
+    }
+    .nav-link {
+    font-size: 9px;
+    }
+    .navbar-brand{
+      margin-left: -5rem;
+    }
+    .dropdown-item
+    {
+        font-size: 9px;
+    }
+     #navbar-list
+    {
+      display: none;
+    }
+
+}
+@media screen and (max-width: 600px) and (min-width: 300px)
+{
+    .header
+    {
+    width: 100% !important;
+    display: grid;
+    }
+    .logoAkhbaar img
+    {
+    width: 85px;
+    margin-top: 7px;
+    margin-left: 1rem;
+    }
+    .navbar-brand .fa-solid 
+    {
+    margin-left: 0.2rem !important;
+    margin-top: -6px !important;
+    }
+    #user-icon-dropdown
+    {
+    margin-left: -58px !important;
+    }
+
+    #UrduAkbaar-link {
+    margin-left: 5px;
+    margin-top: 14px;
+    font-size: 21px;
+    width: 100px;
+    }
+    .collapse.show {
+    display: block;
+    margin-top: 1rem;
+    background: #A5232B;
+    
+    }
+    #dropdown
+    {
+    margin-left: 0.5rem !important;
+    margin-top: -7px !important;
+    }
+    .nav-link {
+    font-size: 9px;
+    }
+    .navbar-brand{
+        font-size: 9px;
+        margin-left: 14.2rem !important;
+        margin-top: -1rem !important;
+    }
+    .dropdown-item
+    {
+        font-size: 9px;
+    }
+     #navbar-list
+    {
+      display: none;
+    }
+
+}
+
+/******************************************** Media Queries for Footer page ****************************************/
+
+@media screen and (max-width:2000px) and (min-width:992px)
+{
+ .nav-item .nav-link{
+  width: 8rem !important; 
+ }
+ .social_group
+  {
+    margin-left: 24rem !important;
+  }
+}
+@media screen and (max-width:599px) and (min-width:300px)
+{
+  #footer 
+  {
+    margin-top: 32rem !important;
+    width: 53rem !important;
+    height: 20rem !important;
+    margin-left: 0rem;
+  }
+  .row #footer_blogs
+  {
+    margin-left: 4.5rem !important;
+    margin-top: -9rem;
+  }
+  #footer_logo
+  {
+    margin-left: 18rem !important;
+  }
+  #footer_des
+  {
+    font-size: 15px;
+  }
+  .social_group
+  {
+     margin-top: -3rem !important;
+    margin-left: 11rem !important;
+  }
+  #footer_copyrights
+  {
+    margin-left: 1rem !important;
+    margin-top: 1rem !important;
+    font-size: 15px;
+  }
+  .navbar-expand-sm .navbar-nav
+  {
+    display: none;
+  }
+}
+@media screen and (max-width:767px) and (min-width:600px)
+{
+  .navbar
+  {
+    margin-left: 13% !important;
+  }
+  .social_group
+  {
+    margin-left: 14rem !important;
+  }
+  .social_group a
+  {
+    margin-left: 2rem !important;
+  }
+  
+}
+ 
+
+/************************************************** media queryies for Main akhbaar Page ***********************************************/
+/*for Urdu Content*/
+
+
+
+@media screen and (max-width:1292px) and (min-width:700px)
+{
+.navbar a {
+    font-size: 15px;
+    margin-top: 4px;
+    margin-left: 1px;
+}
+#carouselExampleIndicators {
+    width: 66% !important;
+  }
+.carousel-inner {
+    width: 76% !important;
+    display: table-cell;
+
+  }
+  /*.carousel-item {
+    position: relative;
+    display: none;
+    float: right !im;
+  }*/
+  .carousel .carousel-indicators
+   {
+    display: flex;
+    justify-content: right;
+    margin-right: 11rem !important;
+}
+.caption_1
+{
+  width: 435px;
+}
+.caption_2
+{
+  width: 435px;
+}
+#btn_breakingNews {
+    left: -11px;
+    }
+.child:last-child {
+   margin: -0.1rem 12px 0px -315px;
+    height: 39rem;
+}
+.trending_news_heading {
+    width: 9rem !important;
+    }
+  
+}
+@media screen and (max-width:600px) and (min-width:300px)
+{
+
+  .child:first-child {
+    height: auto;
+    width: 65rem !important;
+}
+  .child:last-child {
+    margin: -0.1rem -27px 0pc 17px !important;
+  }
+  .middle-bar {
+    width: 52rem !important;
+    margin-left: 0.5rem !important;
+  }
+  #carouselExampleIndicators {
+    width: 35rem !important;
+  }
+  .carousel-inner
+  {
+    width: 52.5rem !important;
+    margin-left: 1rem !important;
+  }
+  #btn_breakingNews {
+    left: -39px;
+  }
+
+  .caption_1 {
+    width: 33rem;
+  }
+  .caption_2 {
+   width: 33rem;
+  }
+  .child:last-child {
+    margin: 0.9rem 8px 0pc 24px !important;
+  }
+  .trending_news_heading {
+    width: 12rem !important;
+  }
+  #trending_news_list p {
+    font-size: 18px !important;
+  }
+
+}
+
+/******************************************** Media Queries for Detail News page ****************************************/
+@media screen and (max-width:1199px) and (min-width:993px)
+{
+  #mainContainer_detailNews>.header
+  {
+    background-color: white;
+  }
+}
+@media screen and (max-width:992px) and (min-width:769px)
+{
+  
+}
+@media screen and (max-width:768px) and (min-width:575px)
+{
+  
+}
+@media screen and (max-width:992px)  and (min-width:789px)
+{
+  #dropdownMenu2
+  {
+    margin-left: 14.5rem;
+    margin-top: 1rem;
+    margin-bottom: 10px;
+  }
+  .dropdown-menu.show {
+    margin-left: -3rem;
+    display: contents !important;
+}
+.dropdown.dropdown, .dropend, .dropstart, .dropup 
+{
+  margin-top: 1rem !important;
+
+}
+}

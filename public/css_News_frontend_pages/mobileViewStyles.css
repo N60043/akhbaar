@@ -1,0 +1,1190 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Nastaliq+Urdu:wght@400;500;600;700&family=Roboto:ital,wght@0,700;1,700&display=swap');
+body
+{
+	background: #111111;
+  color: white;
+}
+a
+{
+  color: white;
+  text-decoration: none;
+}
+a:focus
+{
+  color: white;
+  text-decoration: none;
+}
+
+marquee i
+{
+  color: white;
+}
+.soundActive
+{
+  color: red;
+}
+
+.activeFooter
+{
+  border-bottom:2px solid #A4232A;
+}
+.activeHeader
+{
+  color: red !important;
+  border-bottom: 2px solid red;
+  height: 2.6rem;
+}
+
+/******************************************************** CSS for Mobile Header ********************************************************************/
+#akhbaarActive
+{
+  font-size: 12px;
+  border-bottom: 2px solid #9b0202;
+  font-weight: 700;
+  text-align: center;
+  padding: 7px;
+}
+div.scrollmenu {
+  background: #111111;;
+  overflow: auto;
+  scroll-behavior:auto;
+  overflow-y: hidden;
+  white-space: nowrap;
+  margin-left: -5px !important;
+}
+
+div.scrollmenu a {
+font-family: 'Roboto';
+display: inline-block;
+color: white;
+text-align: center;
+padding: 16px;
+font-size: 16px;
+font-weight: 700;
+FONT-FAMILY: revert;
+text-decoration: none;
+}
+
+::-webkit-scrollbar {
+    background: transparent; /* make scrollbar transparent */
+    height: 0px;
+}
+ .categoryNews .scrollmenu
+    {
+      display: none;
+    }
+/******************************************************** CSS for Mobile Footer **************************************************************/
+#footerMobile {
+      background-color: #000000;
+    overflow: hidden;
+    white-space: nowrap;
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    width: 100%;
+}
+#footerMobile a {
+
+height: 2.6rem !important;
+display: inline-block;
+color: grey;
+text-align: center;
+padding: 4.5px;
+font-size: 13px;
+font-weight: 600;
+font-family: 'Roboto';
+text-decoration: none;    
+margin: 0.3rem !important;
+}
+.fa
+{
+  display: block;
+}
+div#footerMobile .active
+{
+  color: white;
+  border-bottom: 3px solid #ed0d0d;
+}
+#footer-Icon
+{
+  border: none !important;
+}
+
+/******************************************************** CSS for Mobile Home Page ***********************************************************/
+#homeContainer
+{
+height: 43rem;
+overflow: auto;
+margin-left: 20px !important;
+}
+#homeContainerSearch
+{
+  height: 43rem;
+overflow: auto;
+}
+#UpdatehomeContainer
+{
+  height: 43.5rem;
+  overflow: auto;
+  width: 22.5rem;
+}
+#CategoryNewsContainer
+{
+  height: 43rem;
+  margin-left: 0px !important;
+}
+#mobileHome_firstBlog
+{
+  border-bottom: 1px solid grey;
+}
+#Home_firstBlogImage
+{
+    height: 38%;
+    border-radius: 5px
+}
+#Home_firstBlogTitle
+{
+  border-left: 4px solid #a10413;
+}
+#Home_firstBlogTitle #firstBlogTitle
+{
+  width: 99.9%;
+  font-family: 'Roboto';
+  line-height: 22px;
+  font-weight: 700;
+  font-size: 18px;
+  padding-left: 8px;
+  text-align: justify;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: 
+  -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+#firstBlogTitle_Urdu
+{
+  direction: rtl;
+  font-family: 'Noto Nastaliq Urdu';
+  line-height: 37px;
+  color: white;
+  font-size: 18px;
+  font-weight: 700;
+  padding-right: 9px;
+  text-align:right;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: 
+  -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  margin-top: -0.5rem;
+}
+.firstBlogDescription
+{
+  font-family: 'Roboto';
+  line-height: 18px;
+  color: lightgrey;
+  font-size: 14px;
+  text-align: justify;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: 
+  -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  margin-top: -0.5rem;
+}
+.firstBlogDescription_Urdu
+{
+  direction: rtl;
+  text-align: right !important;
+  font-family: 'Noto Nastaliq Urdu';
+  line-height: 37px;
+  color: lightgrey;
+  font-size: 14px;
+  text-align: justify;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: 
+  -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  margin-top: -0.5rem;
+}
+#Home_firstBloglastDiv p
+{
+font-family: 'Roboto';
+ font-size: 12px;
+ color: grey;
+}
+#Home_firstBloglastDiv p>span
+{
+ font-family: 'Roboto';
+ font-size: 12px;
+ color: red;
+}
+#Home_SecondBlog
+{
+  border-bottom: 1px solid grey;
+}
+#Home_SecondBlog img
+{
+ border-radius: 5px;
+}
+#secondBlogtitle
+{
+  font-family: 'Roboto';
+  line-height: 24px;
+  border-left: 4px solid #a10413;
+  padding-left: 8px;
+  font-size: 16px;
+  font-weight: 700;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: 
+  -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+#secondBlogtitle_Urdu
+{
+  direction:rtl;
+  text-align: right;
+  font-family: 'Noto Nastaliq Urdu';
+  line-height: 40px;
+  border-left: 4px solid #a10413;
+  padding-right: 6px;
+  font-size: 16px;
+  font-weight: 700;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: 
+  -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+#thirdBlogtitle
+{
+  font-family: 'Roboto';
+  line-height: 24px;
+  border-left: 4px solid #a10413;
+  padding-left: 8px;
+  font-size: 16px;
+  font-weight: 700;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: 
+  -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+#thirdBlogtitle_Urdu
+{
+  direction:rtl;
+  text-align: right;
+  font-family: 'Noto Nastaliq Urdu';
+  line-height: 40px;
+  border-left: 4px solid #a10413;
+  padding-right: 6px;
+  font-size: 16px;
+  font-weight: 700;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: 
+  -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+#Home_SecondBlog p
+{
+font-family: 'Roboto';
+ font-size: 14px;
+ color: grey;
+}
+#Home_SecondBlog p>span
+{
+  font-family: 'Roboto';
+ font-size: 12px;
+ color:red;
+}
+
+
+/******************************************************** CSS for Mobile Newspaper Page ***********************************************************/
+.newspaper_Container
+{
+ font-family: 'Roboto';
+ height: 49rem;
+}
+#headingNewspaper
+{
+  color: white;
+  text-align: center;
+  padding: 2px;
+}
+#selectNews
+{
+  font-size: 12px;
+  color: #857a7a;
+}
+#akhbaarDiv
+{
+  margin-bottom: 35px !important;
+  width: 30%;
+  height: 7rem;
+}
+#akhbaarImage
+{
+  border-radius: 10px;
+}
+#akhbaarName
+{
+  text-align: center;
+  font-weight: 600;
+}
+
+/******************************************************** CSS for Mobile Search Page ****************************************************/
+#exploreHeading
+{
+  font-family: 'Roboto';
+}
+.search-Container
+{
+  height: 45rem;
+}
+.search-Container form 
+{
+    width: 23.5rem;
+}
+.search-box
+{
+  border-radius: 6px;
+  background: #544e4e !important;
+}
+.InputSearch
+{
+ background: #544e4e !important;
+  outline: none !important;
+  width: 86%;
+  border: none;
+  margin-bottom: 4px;
+
+}
+.InputSearch::placeholder 
+{
+  color:lightgrey; !important;
+  opacity: 1;
+}
+.InputSearch:focus
+{
+  color: white;
+}
+#searchIcon
+{
+  color: white;
+  font-size: 21px;
+}
+
+
+/******************************************************** CSS for Mobile Booksmarks Page ********************************************/
+
+.boookMarks_Container
+{
+  height: 49rem;
+  overflow: auto;
+}
+#heading_Bookmarks
+{
+  font-family: 'Roboto';
+}
+#delete_Bookmarks
+{
+  text-align: center;
+  color: red;
+  margin-top: 3px !important;
+  padding: 1px;
+}
+#bookmarks_FrontImagConatainer
+{
+  width: 22.5rem;
+  margin-left: 0.9rem;
+}
+#bookmarks_FrontImagConatainer img
+{
+ border-radius:5px;
+}
+#bookmarksData_date
+{
+  font-family: 'Roboto';
+  border-radius: 3px;
+  position: absolute;
+  font-size: 12px;
+  color: white;
+  background: red;
+  padding: 2px;
+}
+#bookmarksData_title
+{
+   font-family: 'Roboto';
+  line-height: 22px;
+  font-weight: 700;
+  font-size: 18px;
+  border-bottom: 1px solid grey;
+  padding-bottom: 13px;
+}
+#bookmarksData_description
+{
+   font-family: 'Roboto';
+  line-height: 22px;
+  font-size: 14px;
+  text-align: justify;
+  width: 22.3rem;
+  padding-bottom: 16px;
+  border-bottom: 1px solid grey;
+  margin-top: -6px;
+}
+#bookmarksData_Read
+{
+  color: #d30303;
+  font-size: 12px;
+  float: right;
+  margin-top: -1rem;
+}
+
+/******************************************************** CSS for Mobile Setting Page ********************************************/
+/*.light-mode {
+  background-color: white;
+  color: black;
+}*/
+input[type=checkbox]:checked {
+  background: grey;
+  outline: none;
+}
+
+#heading_Setting
+{
+    font-family: 'Roboto';
+    height: 2.5rem;
+}
+#setting_subContainer
+{
+  overflow: auto;
+  white-space: nowrap;
+  height: 49rem;
+}
+#items:hover
+{
+    /* "to left" / "to right" - affects initial color */
+    background: linear-gradient(to right, #111111 50%, grey 50%) left;
+    background-size: 200%;
+    transition: .3s ease-out;
+}
+#setting_subContainer #items:hover
+{
+ background-position: right !important;
+
+}
+#items
+{
+    border-bottom: 1px solid #4c4848 !important;
+    margin: 0.9rem;
+    padding: 8px;
+
+}
+#item_Icon
+{
+  color: white;
+  background: #f93e06;
+  border-radius: 17px;
+  height: 1.7rem;
+  text-align: center;
+  padding: 5px;
+}
+#icon_heading
+{
+ color: white;
+}
+
+/******************************************************** CSS for Mobile My Profile Page ********************************************/
+#viewProfile_Container
+{
+  height: 49rem;
+}
+#profile_Container
+{
+  font-size: 10rem;
+  text-align: center;
+}
+#profile_heading
+{
+  border-left: 5px solid red;
+  padding: 4px;
+  width: 20%;
+  color: white;
+}
+#profileContent
+{
+  font-size: 16px !important;
+  font-family: 'Roboto';
+}
+/******************************************** CSS for Mobile Plan and Subscription Page ********************************************/
+#subscription_ContentContainer
+{
+  border:2px solid red;
+}
+#planandsubscription_HeaderConatiner
+{
+  border-bottom: 1px solid grey;
+}
+#subscription_ContentContainer p
+{
+  font-size: 12px;
+}
+#planandsubscription_Header
+{
+  padding: 4px;
+  width: 20%;
+  color: white;
+}
+#weeklypackage_Header
+{
+  text-align: center;
+  border-bottom: 1px solid grey;
+  font-size: 12px;
+  line-height: 0px;
+}
+#weeklypackage_Content
+{
+ text-align: center;
+ color: red;
+}
+#subscription_ContentContainer .btn-danger {
+    color: #fff;
+    background-color: red;
+    width: 100%;
+    font-size: 12px;
+    border-radius: 13px;
+    margin-bottom: 17px;
+}
+#subscription_ContentContainer .btn-danger:hover {
+    background:black;
+    border:none;
+}
+
+
+/******************************************** CSS for Mobile Term and Condition Page ********************************************/
+
+#termandcondition_Header
+{
+  border-bottom: 1px solid grey;
+}
+#termandcondition_Content
+{
+  text-align: justify;
+  overflow: auto;
+  height: 49rem;
+  width: 24rem;
+  font-size: 14px;
+  margin-left: 0.7rem;
+}
+#heading_termandcondition
+{
+  color: red;
+  padding: 4px;
+}
+#heading_termandcondition::before
+{
+  display: inline-block;
+    content: "";
+    border-top: 1px solid red;
+    width: 3.7rem;
+    margin: 0 0.2rem;
+    padding: 3px;
+}
+#heading_termandcondition::after
+{
+  display: inline-block;
+    content: "";
+    border-top: 1px solid red;
+    width: 3.7rem;
+    margin: 0 0.5rem;
+    padding: 3px;
+}
+
+/******************************************** CSS for Mobile Privacy and Policy Page ********************************************/
+#privacyandpolicy_Header
+{
+  border-bottom: 1px solid grey;
+}
+#privacyandpolicy_Content
+{
+  text-align: justify;
+  overflow: auto;
+  height: 49rem;
+  width: 24rem;
+  font-size: 14px;
+  margin-left: 0.7rem;
+}
+.fa-arrow-left
+{
+  color: white;
+}
+#heading_privacyandpolicy
+{
+  color: red;
+  padding: 4px;
+  text-align: center;
+}
+#heading_privacyandpolicy::before
+{
+  display: inline-flex;
+    content: "";
+    border-top: 1px solid red;
+    width: 5rem;
+    margin: 0 .5rem;
+    padding: 6px;
+}
+#heading_privacyandpolicy::after
+{
+  display: inline-block;
+    content: "";
+    border-top: 1px solid red;
+    width: 5rem;
+    margin: 0 .5rem;
+    padding: 3px;
+}
+/******************************************** CSS for Mobile Copy Rights Page ********************************************/
+
+#copyright_Container
+{
+  background: #161810;
+  display: none;
+  position: absolute;
+  margin-left: 3.5rem !important;
+  margin-right: auto !important;
+  margin-top: -15.3rem !important;
+  margin-bottom: auto !important;
+}
+#akhbaar_Heading
+{
+  font-size: 11px;
+  color: red;
+  font-weight: 700;
+  letter-spacing: 5.4px;
+}
+#copyright_Content
+{
+  font-size: 12px;
+  line-height: 6px;
+}
+#copyright_Content p:first-child {
+    display: block;
+}
+#copyright_Content p
+{
+  display: flex;
+  justify-content: space-between;
+  letter-spacing: 1px;
+}
+#copyright_Content p:last-child {
+    padding-bottom: 22px;
+    text-align: center;
+    display: block;
+    line-height: 0px;
+}
+
+/******************************************************** CSS for Contact Us Page ********************************************/
+
+#contactUs_Header
+{
+  border-bottom: 1px solid grey;
+}
+#contactUs_Content
+{
+ text-align: justify;
+  overflow: auto;
+  height: 49rem;
+  width: 25rem;
+  font-size: 14px;
+  margin-left: 0.7rem;
+}
+#heading_ContactUs
+{
+  color: red;
+  padding: 4px;
+}
+#heading_ContactUs::before
+{
+  display: inline-flex;
+    content: "";
+    border-top: 1px solid red;
+    width: 6.5rem;
+    margin: 0px 0.5rem 0px 0px;
+    padding: 6px;
+}
+#heading_ContactUs::after
+{
+  display: inline-block;
+    content: "";
+    border-top: 1px solid red;
+    width: 6.5rem;
+    margin: 0px 0px 0px 0.5rem;
+    padding: 3px;
+}
+#conatct_label
+{
+  font-size: 11px;
+}
+#contact_inputFields::placeholder
+{
+  font-size: 12px;
+}
+
+/******************************************************** CSS for Mobile Setting Page ********************************************/
+
+/*****************************************************  Starts User Login With OTP Page CSS  ************************************************/
+#MobileUserLogin
+{
+  height: 49rem;
+}
+#MobileUserLogin #akhbaar_Heading
+{
+  font-family: 'Roboto';
+  text-align: center;
+}
+#MobileUserLogin .phone_div
+{
+    width: 99%;
+    height: 35px;
+    border:1px solid #CD395A;
+    border-radius: 4px;
+    margin-left: 0.2rem;
+}
+#responseShow
+{
+    color: white;
+    font-size: 16px;
+    background: #a92a40;
+    padding: 4px;
+    border-radius: 7px;
+  }
+#signIn_Heading
+{
+  font-family: 'Roboto';
+}
+#enterPhone_paragraph
+{
+  font-family: 'Roboto';
+  color:grey;
+  font-size: 13px;
+}
+  #MobileUserLogin .fa-phone
+{
+    padding-top: 0.6rem;
+    margin-left: 1.2rem !important;
+}
+
+#MobileUserLogin .phone-InputField
+{
+  background-color: #111111;
+  border: none;
+  font-size: 20px;
+  width: 10rem;
+}
+#MobileUserLogin .phone_div .phone-InputField::placeholder
+{
+  font-family: 'Roboto';
+  font-size: 20px;
+}
+#MobileUserLogin .phone-InputField:focus,.phone-InputField:valid{
+    outline: none;
+    color:white;
+}
+#timeout_OTP
+{
+  font-family: 'Roboto';
+  font-size: 12px;
+}
+#MobileUserLogin .otp-Button
+{
+  font-family: 'Roboto';
+  width: 91%;
+  height: 33px;
+  outline: none;
+  border: none;
+  background-color: red;
+  border-radius: 7px;
+  color: white;
+  margin-left: 0.8rem;
+}
+#MobileUserLogin .fa-check
+{
+
+    padding-top: 0.6rem;
+    margin-left: 1.2rem !important;
+    color: red;
+}
+#MobileUserLogin .subscribing-paragraph
+{
+  font-family: 'Roboto';
+  font-size:12px;
+}
+#subscription_Container
+{
+line-height: 13.5px;;
+}
+#confirmation_Heading
+{
+  font-family: 'Roboto';
+}
+.otpVerification_form .OTP_div
+{
+  width: 19%;
+}
+.otpVerification_form .OTP_div .OTP-InputField
+{
+  font-family: 'Roboto';
+  background-color: black;
+  color: white;
+  font-size: 12px;
+  width: 100%;
+  height: 2rem;
+  border: 1px solid grey;
+  text-align: center;
+  border-radius: 5px;
+}
+#resend_Button
+{
+  font-family: 'Roboto';
+  background: grey;
+  color: white;
+  border-radius: 6px;
+  width: 6.5rem;
+  height: 3REm;
+}
+#confirm_Button
+{
+  margin-left: 5rem !important;
+  font-family: 'Roboto';
+  background: red;
+  color: white;
+  border-radius: 6px;
+  width: 6.5rem;
+  font-weight: 700;
+  border: none;
+  outline: none;
+  height: 3REm;
+} 
+
+/******************************************************** CSS for Mobile Category Detail Page ********************************************/
+#marquee_title
+{
+  font-family: 'Roboto';
+  color: red;
+  font-weight: 700;
+}
+#marqueetitle_Urdu
+{
+  font-family: 'Noto Nastaliq Urdu';
+  color: red;
+  font-weight: 700;
+  font-size: 13px;
+}
+#categoryDetail_Container
+{
+  height: 49rem;
+  overflow: auto;
+}
+#cetegory_image img
+{
+  border-radius: 5px;
+}
+#categoryDetail_playSoundContainer
+{
+  font-family: 'Roboto';
+  padding: 8px;
+  text-align: center;
+  font-size: 17px;
+}
+#playSound_Bookmarks_Container a:hover
+{
+  color: white;
+}
+#playSound_Bookmarks_Container i 
+{
+  border: none;
+}
+#playSound_Bookmarks_Container span
+{
+  border: none;
+  margin-left: -2px;
+}
+.bookmarkActive
+{
+  color:red;
+  font-size: 20px;
+}
+.CategorybookmarkActive
+{
+  color: red;
+  border: 2px solid red;
+  border-radius: 4px;
+}
+.fa-volume-up:before {
+    content: "\f028";
+    font-size:18px;
+}
+.fa-volume-up span 
+{
+  font-family: 'Roboto';
+  font-size: 9px;
+}
+#categoryDetail_bookmarks
+{
+  font-family: 'Roboto';
+    text-align: center;
+    padding-top: 6px;
+    font-size: 17px;
+    margin-left: 5rem;
+}
+#categoryDetail_date
+{
+  font-family: 'Roboto';
+  font-size: 15px;
+  color: lightgrey;
+}
+#categoryDetail_publish
+{
+  font-family: 'Roboto';
+  font-size: 15px;
+  color: lightgrey;
+}
+#categoryDetail_publish #news_name
+{
+  border-bottom: 1px solid #bd0505;
+    height: 23px;
+    color: #bd0505;
+}
+#categoryDetail_ContentContainer
+{
+  font-family: 'Roboto';
+  text-align: justify;
+  font-size: 18px;
+  width: 21.5rem;
+  word-break: break-all;
+}
+
+#category_title
+{
+    border-bottom: 1px solid grey;
+    padding-bottom: 0.5rem;
+}
+#detailNewsTitle_Urdu
+{
+  direction: rtl;
+  text-align: justify;
+  line-height: 39px;
+  font-family: 'Noto Nastaliq Urdu';
+  font-weight: 700;
+  width: 22rem;
+}
+#category_description
+{
+  color: lightgrey;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid grey;
+  width: 23.4rem;
+
+}
+#detailNewsDescription_Urdu
+{
+  direction: rtl;
+  text-align: justify;
+  line-height: 39px;
+  font-family: 'Noto Nastaliq Urdu';
+  width: 22rem;
+}
+#shareContainer
+{
+   
+}
+#shareHeading
+{
+  font-family: 'Roboto';
+  font-size: 18px;
+  color: #D44144;
+  font-weight: 700;
+}
+#shareIcone_Container
+{
+   margin-top: -4px;
+}
+#shareIcon
+{
+  background: #DB363F;
+  color: white;
+  width: 2.5rem;
+}
+#shareIcone_Container .fa-twitter
+{
+  text-align: center;
+    font-size: 18px;
+    margin-left: -5px;
+    margin-top: 1px;
+}
+#shareIcone_Container .fa-facebook
+{
+  text-align: center;
+    font-size: 18px;
+    margin-left: -5px;
+    margin-top: 1px;
+}
+#relatedNews_Container
+{
+  width: 22rem;
+}
+#relatedNews_Heading
+{
+  font-family: 'Roboto';
+  border-left: 4px solid #d30404;
+  height: 3.5%;
+  font-size: 20px;
+}
+#relatedNews_ContentContainer
+{
+font-family: 'Roboto';
+font-size: 15px;
+border-bottom: 1px solid lightgrey;
+padding: 5px;
+width: 21.4rem;
+
+}
+#relatedNews_Image img
+{
+  border-radius: 5px;
+  width: 7.5rem;
+  margin-left: -0.5rem;
+}
+#relatedNews_date
+{
+  width: 15rem;
+  font-family: 'Roboto';
+  font-weight: bold;
+  font-size: 14px;
+}
+#relatedNews_title
+{
+  width: 13rem;
+  font-family: 'Roboto';
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: 
+  -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  margin-top: -0.7rem !important;
+}
+#relatedNewstitle_Urdu
+{
+  direction: rtl;
+  text-align: right;
+  height: auto !important;
+  width: 13rem;
+  line-height: 29px;
+  font-family: 'Noto Nastaliq Urdu';
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  margin-top: -0.7rem !important;
+  margin-left: -0.2rem !important;
+}
+@media screen and (max-width:520px) and (min-width:421px)
+{
+#footerMobile a {
+    font-size: 15px;
+    margin: 0.5rem !important;
+}
+#homeContainer {
+    height: 50rem !important;
+}
+}
+@media screen and (max-width:420px) and (min-width:400px)
+{
+  
+  .newspaper_Container {
+    height: 53rem;
+}
+.search-Container {
+    height: 49rem;
+}
+.search-Container form {
+    width: 25rem;
+}
+  #homeContainer {
+    width: 24.3rem;
+    height: 48rem !important;
+  }
+  #CategoryNewsContainer {
+    width: 23.3rem !important;
+}
+  #footerMobile {
+    width: 26rem;
+}
+  #footerMobile a {
+    margin: 0.6rem !important;
+  }
+  .boookMarks_Container {
+    height: 53rem;
+}
+  #bookmarks_FrontImagConatainer {
+    width: 24.5rem;
+}
+#setting_subContainer {
+    height: 50rem;
+}
+#MobileUserLogin {
+    height: 53rem;
+}
+#categoryDetail_ContentContainer {
+    width: 24.3rem;
+}
+#categoryDetail_Container {
+    height: 54rem;
+    width: 25.3rem;
+}
+#detailNewsTitle_Urdu {
+    width: 24rem;
+    display: inherit;
+    /* word-break: break-all; */
+    margin-left: -5px;
+}
+#detailNewsDescription_Urdu {
+     margin-left: -5px;
+    width: 24rem;
+}
+#relatedNews_ContentContainer {
+    width: 25rem;
+}
+#relatedNewstitle_Urdu {
+    width: 16rem;
+}
+#termandcondition_Content {
+    width: 25.4rem;
+}
+#privacyandpolicy_Content {
+    width: 25.5rem;
+}
+}
+@media screen and (max-width:399px) and (min-width:200px)
+{
+  #homeContainerSearch {
+    width: 23.5rem !important;
+    height: 58rem !important;
+}
+#footerMobile a {
+    margin: 0.44rem !important;
+}
+}
